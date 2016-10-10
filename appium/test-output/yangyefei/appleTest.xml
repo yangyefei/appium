@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testsuite hostname="XLH-20160517" tests="2" failures="0" timestamp="9 Oct 2016 09:21:13 GMT" time="18.644" errors="0">
-  <testcase name="press" time="1.592" classname="AppDemo"/>
-  <testcase name="press2" time="7.131" classname="AppDemo"/>
-</testsuite>
