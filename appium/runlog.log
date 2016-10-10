@@ -1,0 +1,949 @@
+Added file D:\workspacenew\appium\build.xml
+Buildfile: D:\workspacenew\appium\build.xml
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 25.2.2
+ [checkenv] Installed at D:\adt-bundle-windows-x86_64-20140702\sdk
+
+-build-setup:
+[getbuildtools] Using latest Build Tools: 23.0.1
+     [echo] Resolving Build Target for demo3...
+[getuitarget] Project Target:   Android 4.4.2
+[getuitarget] API level:        19
+     [echo] ----------
+     [echo] Creating output directories if needed...
+    [mkdir] Created dir: D:\workspacenew\appium\bin\classes
+
+-pre-compile:
+
+compile:
+    [javac] Compiling 2 source files to D:\workspacenew\appium\bin\classes
+    [javac] 警告: [options] 源值1.5已过时, 将在未来所有发行版中删除
+    [javac] 警告: [options] 目标值1.5已过时, 将在未来所有发行版中删除
+    [javac] 警告: [options] 要隐藏有关已过时选项的警告, 请使用 -Xlint:-options。
+    [javac] D:\workspacenew\appium\src\appiumtest\AppDemo.java:62: 警告: 编码UTF-8的不可映射字符
+    [javac] 		WebElement el = driver.findElement(By.name("???"));
+    [javac] 		                                            ^
+    [javac] D:\workspacenew\appium\src\appiumtest\AppDemo.java:62: 警告: 编码UTF-8的不可映射字符
+    [javac] 		WebElement el = driver.findElement(By.name("???"));
+    [javac] 		                                              ^
+    [javac] D:\workspacenew\appium\src\appiumtest\AppDemo.java:73: 警告: 编码UTF-8的不可映射字符
+    [javac] 		System.out.println("?????press"+act);
+    [javac] 		                     ^
+    [javac] D:\workspacenew\appium\src\appiumtest\AppDemo.java:73: 警告: 编码UTF-8的不可映射字符
+    [javac] 		System.out.println("?????press"+act);
+    [javac] 		                      ^
+    [javac] D:\workspacenew\appium\src\appiumtest\AppDemo.java:73: 警告: 编码UTF-8的不可映射字符
+    [javac] 		System.out.println("?????press"+act);
+    [javac] 		                       ^
+    [javac] D:\workspacenew\appium\src\appiumtest\AppDemo.java:73: 警告: 编码UTF-8的不可映射字符
+    [javac] 		System.out.println("?????press"+act);
+    [javac] 		                        ^
+    [javac] D:\workspacenew\appium\src\appiumtest\AppDemo.java:86: 警告: 编码UTF-8的不可映射字符
+    [javac] 		WebElement el = driver.findElement(By.name("????"));
+    [javac] 		                                            ^
+    [javac] D:\workspacenew\appium\src\appiumtest\AppDemo.java:86: 警告: 编码UTF-8的不可映射字符
+    [javac] 		WebElement el = driver.findElement(By.name("????"));
+    [javac] 		                                             ^
+    [javac] D:\workspacenew\appium\src\appiumtest\AppDemo.java:86: 警告: 编码UTF-8的不可映射字符
+    [javac] 		WebElement el = driver.findElement(By.name("????"));
+    [javac] 		                                              ^
+    [javac] D:\workspacenew\appium\src\appiumtest\AppDemo.java:86: 警告: 编码UTF-8的不可映射字符
+    [javac] 		WebElement el = driver.findElement(By.name("????"));
+    [javac] 		                                               ^
+    [javac] D:\workspacenew\appium\src\appiumtest\AppDemo.java:89: 警告: 编码UTF-8的不可映射字符
+    [javac] 		driver.findElement(By.name("???")).click();
+    [javac] 		                             ^
+    [javac] D:\workspacenew\appium\src\appiumtest\AppDemo.java:89: 警告: 编码UTF-8的不可映射字符
+    [javac] 		driver.findElement(By.name("???")).click();
+    [javac] 		                              ^
+    [javac] D:\workspacenew\appium\src\appiumtest\AppDemo.java:90: 警告: 编码UTF-8的不可映射字符
+    [javac] 		driver.findElement(By.name("???????")).click();
+    [javac] 		                            ^
+    [javac] D:\workspacenew\appium\src\appiumtest\AppDemo.java:90: 警告: 编码UTF-8的不可映射字符
+    [javac] 		driver.findElement(By.name("???????")).click();
+    [javac] 		                             ^
+    [javac] D:\workspacenew\appium\src\appiumtest\AppDemo.java:90: 警告: 编码UTF-8的不可映射字符
+    [javac] 		driver.findElement(By.name("???????")).click();
+    [javac] 		                               ^
+    [javac] D:\workspacenew\appium\src\appiumtest\AppDemo.java:90: 警告: 编码UTF-8的不可映射字符
+    [javac] 		driver.findElement(By.name("???????")).click();
+    [javac] 		                                ^
+    [javac] D:\workspacenew\appium\src\appiumtest\AppDemo.java:90: 警告: 编码UTF-8的不可映射字符
+    [javac] 		driver.findElement(By.name("???????")).click();
+    [javac] 		                                 ^
+    [javac] D:\workspacenew\appium\src\appiumtest\AppDemo.java:90: 警告: 编码UTF-8的不可映射字符
+    [javac] 		driver.findElement(By.name("???????")).click();
+    [javac] 		                                  ^
+    [javac] D:\workspacenew\appium\src\appiumtest\AppDemo.java:92: 警告: 编码UTF-8的不可映射字符
+    [javac] 		System.out.println("?????presse2");
+    [javac] 		                     ^
+    [javac] D:\workspacenew\appium\src\appiumtest\AppDemo.java:92: 警告: 编码UTF-8的不可映射字符
+    [javac] 		System.out.println("?????presse2");
+    [javac] 		                      ^
+    [javac] D:\workspacenew\appium\src\appiumtest\AppDemo.java:92: 警告: 编码UTF-8的不可映射字符
+    [javac] 		System.out.println("?????presse2");
+    [javac] 		                       ^
+    [javac] D:\workspacenew\appium\src\appiumtest\AppDemo.java:92: 警告: 编码UTF-8的不可映射字符
+    [javac] 		System.out.println("?????presse2");
+    [javac] 		                        ^
+    [javac] D:\workspacenew\appium\src\appiumtest\method.java:4: 警告: 编码UTF-8的不可映射字符
+    [javac] //    //1.????????????????
+    [javac]           ^
+    [javac] D:\workspacenew\appium\src\appiumtest\method.java:4: 警告: 编码UTF-8的不可映射字符
+    [javac] //    //1.????????????????
+    [javac]            ^
+    [javac] D:\workspacenew\appium\src\appiumtest\method.java:4: 警告: 编码UTF-8的不可映射字符
+    [javac] //    //1.????????????????
+    [javac]             ^
+    [javac] D:\workspacenew\appium\src\appiumtest\method.java:4: 警告: 编码UTF-8的不可映射字符
+    [javac] //    //1.????????????????
+    [javac]              ^
+    [javac] D:\workspacenew\appium\src\appiumtest\method.java:4: 警告: 编码UTF-8的不可映射字符
+    [javac] //    //1.????????????????
+    [javac]               ^
+    [javac] D:\workspacenew\appium\src\appiumtest\method.java:4: 警告: 编码UTF-8的不可映射字符
+    [javac] //    //1.????????????????
+    [javac]                ^
+    [javac] D:\workspacenew\appium\src\appiumtest\method.java:4: 警告: 编码UTF-8的不可映射字符
+    [javac] //    //1.????????????????
+    [javac]                 ^
+    [javac] D:\workspacenew\appium\src\appiumtest\method.java:4: 警告: 编码UTF-8的不可映射字符
+    [javac] //    //1.????????????????
+    [javac]                  ^
+    [javac] D:\workspacenew\appium\src\appiumtest\method.java:4: 警告: 编码UTF-8的不可映射字符
+    [javac] //    //1.????????????????
+    [javac]                   ^
+    [javac] D:\workspacenew\appium\src\appiumtest\method.java:4: 警告: 编码UTF-8的不可映射字符
+    [javac] //    //1.????????????????
+    [javac]                    ^
+    [javac] D:\workspacenew\appium\src\appiumtest\method.java:4: 警告: 编码UTF-8的不可映射字符
+    [javac] //    //1.????????????????
+    [javac]                     ^
+    [javac] D:\workspacenew\appium\src\appiumtest\method.java:4: 警告: 编码UTF-8的不可映射字符
+    [javac] //    //1.????????????????
+    [javac]                      ^
+    [javac] D:\workspacenew\appium\src\appiumtest\method.java:4: 警告: 编码UTF-8的不可映射字符
+    [javac] //    //1.????????????????
+    [javac]                       ^
+    [javac] D:\workspacenew\appium\src\appiumtest\method.java:4: 警告: 编码UTF-8的不可映射字符
+    [javac] //    //1.????????????????
+    [javac]                        ^
+    [javac] D:\workspacenew\appium\src\appiumtest\method.java:4: 警告: 编码UTF-8的不可映射字符
+    [javac] //    //1.????????????????
+    [javac]                         ^
+    [javac] D:\workspacenew\appium\src\appiumtest\method.java:4: 警告: 编码UTF-8的不可映射字符
+    [javac] //    //1.????????????????
+    [javac]                          ^
+    [javac] D:\workspacenew\appium\src\appiumtest\method.java:8: 警告: 编码UTF-8的不可映射字符
+    [javac] //	//FileUtils.copyFile(screen, screenFile); //commons-io-2.0.1.jar?е?api
+    [javac]   	                                                                ^
+    [javac] D:\workspacenew\appium\src\appiumtest\method.java:8: 警告: 编码UTF-8的不可映射字符
+    [javac] //	//FileUtils.copyFile(screen, screenFile); //commons-io-2.0.1.jar?е?api
+    [javac]   	                                                                  ^
+    [javac] D:\workspacenew\appium\src\appiumtest\method.java:12: 警告: 编码UTF-8的不可映射字符
+    [javac] //	//???????????activity,?????????????????????activity
+    [javac]   	  ^
+    [javac] D:\workspacenew\appium\src\appiumtest\method.java:12: 警告: 编码UTF-8的不可映射字符
+    [javac] //	//???????????activity,?????????????????????activity
+    [javac]   	   ^
+    [javac] D:\workspacenew\appium\src\appiumtest\method.java:12: 警告: 编码UTF-8的不可映射字符
+    [javac] //	//???????????activity,?????????????????????activity
+    [javac]   	     ^
+    [javac] D:\workspacenew\appium\src\appiumtest\method.java:12: 警告: 编码UTF-8的不可映射字符
+    [javac] //	//???????????activity,?????????????????????activity
+    [javac]   	      ^
+    [javac] D:\workspacenew\appium\src\appiumtest\method.java:12: 警告: 编码UTF-8的不可映射字符
+    [javac] //	//???????????activity,?????????????????????activity
+    [javac]   	        ^
+    [javac] D:\workspacenew\appium\src\appiumtest\method.java:12: 警告: 编码UTF-8的不可映射字符
+    [javac] //	//???????????activity,?????????????????????activity
+    [javac]   	         ^
+    [javac] D:\workspacenew\appium\src\appiumtest\method.java:12: 警告: 编码UTF-8的不可映射字符
+    [javac] //	//???????????activity,?????????????????????activity
+    [javac]   	          ^
+    [javac] D:\workspacenew\appium\src\appiumtest\method.java:12: 警告: 编码UTF-8的不可映射字符
+    [javac] //	//???????????activity,?????????????????????activity
+    [javac]   	           ^
+    [javac] D:\workspacenew\appium\src\appiumtest\method.java:12: 警告: 编码UTF-8的不可映射字符
+    [javac] //	//???????????activity,?????????????????????activity
+    [javac]   	            ^
+    [javac] D:\workspacenew\appium\src\appiumtest\method.java:12: 警告: 编码UTF-8的不可映射字符
+    [javac] //	//???????????activity,?????????????????????activity
+    [javac]   	                      ^
+    [javac] D:\workspacenew\appium\src\appiumtest\method.java:12: 警告: 编码UTF-8的不可映射字符
+    [javac] //	//???????????activity,?????????????????????activity
+    [javac]   	                       ^
+    [javac] D:\workspacenew\appium\src\appiumtest\method.java:12: 警告: 编码UTF-8的不可映射字符
+    [javac] //	//???????????activity,?????????????????????activity
+    [javac]   	                        ^
+    [javac] D:\workspacenew\appium\src\appiumtest\method.java:12: 警告: 编码UTF-8的不可映射字符
+    [javac] //	//???????????activity,?????????????????????activity
+    [javac]   	                         ^
+    [javac] D:\workspacenew\appium\src\appiumtest\method.java:12: 警告: 编码UTF-8的不可映射字符
+    [javac] //	//???????????activity,?????????????????????activity
+    [javac]   	                          ^
+    [javac] D:\workspacenew\appium\src\appiumtest\method.java:12: 警告: 编码UTF-8的不可映射字符
+    [javac] //	//???????????activity,?????????????????????activity
+    [javac]   	                            ^
+    [javac] D:\workspacenew\appium\src\appiumtest\method.java:12: 警告: 编码UTF-8的不可映射字符
+    [javac] //	//???????????activity,?????????????????????activity
+    [javac]   	                             ^
+    [javac] D:\workspacenew\appium\src\appiumtest\method.java:12: 警告: 编码UTF-8的不可映射字符
+    [javac] //	//???????????activity,?????????????????????activity
+    [javac]   	                              ^
+    [javac] D:\workspacenew\appium\src\appiumtest\method.java:12: 警告: 编码UTF-8的不可映射字符
+    [javac] //	//???????????activity,?????????????????????activity
+    [javac]   	                               ^
+    [javac] D:\workspacenew\appium\src\appiumtest\method.java:12: 警告: 编码UTF-8的不可映射字符
+    [javac] //	//???????????activity,?????????????????????activity
+    [javac]   	                                 ^
+    [javac] D:\workspacenew\appium\src\appiumtest\method.java:12: 警告: 编码UTF-8的不可映射字符
+    [javac] //	//???????????activity,?????????????????????activity
+    [javac]   	                                  ^
+    [javac] D:\workspacenew\appium\src\appiumtest\method.java:12: 警告: 编码UTF-8的不可映射字符
+    [javac] //	//???????????activity,?????????????????????activity
+    [javac]   	                                   ^
+    [javac] D:\workspacenew\appium\src\appiumtest\method.java:12: 警告: 编码UTF-8的不可映射字符
+    [javac] //	//???????????activity,?????????????????????activity
+    [javac]   	                                     ^
+    [javac] D:\workspacenew\appium\src\appiumtest\method.java:12: 警告: 编码UTF-8的不可映射字符
+    [javac] //	//???????????activity,?????????????????????activity
+    [javac]   	                                      ^
+    [javac] D:\workspacenew\appium\src\appiumtest\method.java:12: 警告: 编码UTF-8的不可映射字符
+    [javac] //	//???????????activity,?????????????????????activity
+    [javac]   	                                        ^
+    [javac] D:\workspacenew\appium\src\appiumtest\method.java:12: 警告: 编码UTF-8的不可映射字符
+    [javac] //	//???????????activity,?????????????????????activity
+    [javac]   	                                          ^
+    [javac] D:\workspacenew\appium\src\appiumtest\method.java:15: 警告: 编码UTF-8的不可映射字符
+    [javac] //	//??????????
+    [javac]   	  ^
+    [javac] D:\workspacenew\appium\src\appiumtest\method.java:15: 警告: 编码UTF-8的不可映射字符
+    [javac] //	//??????????
+    [javac]   	   ^
+    [javac] D:\workspacenew\appium\src\appiumtest\method.java:15: 警告: 编码UTF-8的不可映射字符
+    [javac] //	//??????????
+    [javac]   	      ^
+    [javac] D:\workspacenew\appium\src\appiumtest\method.java:15: 警告: 编码UTF-8的不可映射字符
+    [javac] //	//??????????
+    [javac]   	       ^
+    [javac] D:\workspacenew\appium\src\appiumtest\method.java:15: 警告: 编码UTF-8的不可映射字符
+    [javac] //	//??????????
+    [javac]   	        ^
+    [javac] D:\workspacenew\appium\src\appiumtest\method.java:15: 警告: 编码UTF-8的不可映射字符
+    [javac] //	//??????????
+    [javac]   	         ^
+    [javac] D:\workspacenew\appium\src\appiumtest\method.java:15: 警告: 编码UTF-8的不可映射字符
+    [javac] //	//??????????
+    [javac]   	          ^
+    [javac] D:\workspacenew\appium\src\appiumtest\method.java:15: 警告: 编码UTF-8的不可映射字符
+    [javac] //	//??????????
+    [javac]   	           ^
+    [javac] D:\workspacenew\appium\src\appiumtest\method.java:18: 警告: 编码UTF-8的不可映射字符
+    [javac] //	//??????????????APP
+    [javac]   	  ^
+    [javac] D:\workspacenew\appium\src\appiumtest\method.java:18: 警告: 编码UTF-8的不可映射字符
+    [javac] //	//??????????????APP
+    [javac]   	   ^
+    [javac] D:\workspacenew\appium\src\appiumtest\method.java:18: 警告: 编码UTF-8的不可映射字符
+    [javac] //	//??????????????APP
+    [javac]   	    ^
+    [javac] D:\workspacenew\appium\src\appiumtest\method.java:18: 警告: 编码UTF-8的不可映射字符
+    [javac] //	//??????????????APP
+    [javac]   	     ^
+    [javac] D:\workspacenew\appium\src\appiumtest\method.java:18: 警告: 编码UTF-8的不可映射字符
+    [javac] //	//??????????????APP
+    [javac]   	      ^
+    [javac] D:\workspacenew\appium\src\appiumtest\method.java:18: 警告: 编码UTF-8的不可映射字符
+    [javac] //	//??????????????APP
+    [javac]   	       ^
+    [javac] D:\workspacenew\appium\src\appiumtest\method.java:18: 警告: 编码UTF-8的不可映射字符
+    [javac] //	//??????????????APP
+    [javac]   	        ^
+    [javac] D:\workspacenew\appium\src\appiumtest\method.java:18: 警告: 编码UTF-8的不可映射字符
+    [javac] //	//??????????????APP
+    [javac]   	         ^
+    [javac] D:\workspacenew\appium\src\appiumtest\method.java:18: 警告: 编码UTF-8的不可映射字符
+    [javac] //	//??????????????APP
+    [javac]   	           ^
+    [javac] D:\workspacenew\appium\src\appiumtest\method.java:18: 警告: 编码UTF-8的不可映射字符
+    [javac] //	//??????????????APP
+    [javac]   	             ^
+    [javac] D:\workspacenew\appium\src\appiumtest\method.java:18: 警告: 编码UTF-8的不可映射字符
+    [javac] //	//??????????????APP
+    [javac]   	              ^
+    [javac] D:\workspacenew\appium\src\appiumtest\method.java:18: 警告: 编码UTF-8的不可映射字符
+    [javac] //	//??????????????APP
+    [javac]   	               ^
+    [javac] D:\workspacenew\appium\src\appiumtest\method.java:21: 警告: 编码UTF-8的不可映射字符
+    [javac] //	//????????б?
+    [javac]   	  ^
+    [javac] D:\workspacenew\appium\src\appiumtest\method.java:21: 警告: 编码UTF-8的不可映射字符
+    [javac] //	//????????б?
+    [javac]   	    ^
+    [javac] D:\workspacenew\appium\src\appiumtest\method.java:21: 警告: 编码UTF-8的不可映射字符
+    [javac] //	//????????б?
+    [javac]   	     ^
+    [javac] D:\workspacenew\appium\src\appiumtest\method.java:21: 警告: 编码UTF-8的不可映射字符
+    [javac] //	//????????б?
+    [javac]   	      ^
+    [javac] D:\workspacenew\appium\src\appiumtest\method.java:21: 警告: 编码UTF-8的不可映射字符
+    [javac] //	//????????б?
+    [javac]   	       ^
+    [javac] D:\workspacenew\appium\src\appiumtest\method.java:21: 警告: 编码UTF-8的不可映射字符
+    [javac] //	//????????б?
+    [javac]   	        ^
+    [javac] D:\workspacenew\appium\src\appiumtest\method.java:21: 警告: 编码UTF-8的不可映射字符
+    [javac] //	//????????б?
+    [javac]   	         ^
+    [javac] D:\workspacenew\appium\src\appiumtest\method.java:21: 警告: 编码UTF-8的不可映射字符
+    [javac] //	//????????б?
+    [javac]   	           ^
+    [javac] D:\workspacenew\appium\src\appiumtest\method.java:23: 警告: 编码UTF-8的不可映射字符
+    [javac] //	//????
+    [javac]   	  ^
+    [javac] D:\workspacenew\appium\src\appiumtest\method.java:23: 警告: 编码UTF-8的不可映射字符
+    [javac] //	//????
+    [javac]   	   ^
+    [javac] D:\workspacenew\appium\src\appiumtest\method.java:23: 警告: 编码UTF-8的不可映射字符
+    [javac] //	//????
+    [javac]   	    ^
+    [javac] D:\workspacenew\appium\src\appiumtest\method.java:23: 警告: 编码UTF-8的不可映射字符
+    [javac] //	//????
+    [javac]   	     ^
+    [javac] D:\workspacenew\appium\src\appiumtest\AppDemo.java:3: 错误: 程序包org.testng.annotations不存在
+    [javac] import org.testng.annotations.AfterMethod;
+    [javac]                              ^
+    [javac] D:\workspacenew\appium\src\appiumtest\AppDemo.java:4: 错误: 程序包org.testng.annotations不存在
+    [javac] import org.testng.annotations.Test;
+    [javac]                              ^
+    [javac] D:\workspacenew\appium\src\appiumtest\AppDemo.java:6: 错误: 程序包com.gargoylesoftware.htmlunit.javascript.host.dom不存在
+    [javac] import com.gargoylesoftware.htmlunit.javascript.host.dom.Document;
+    [javac]                                                         ^
+    [javac] D:\workspacenew\appium\src\appiumtest\AppDemo.java:8: 错误: 程序包org.testng.annotations不存在
+    [javac] import org.testng.annotations.BeforeMethod;
+    [javac]                              ^
+    [javac] D:\workspacenew\appium\src\appiumtest\AppDemo.java:9: 错误: 程序包org.testng.annotations不存在
+    [javac] import org.testng.annotations.DataProvider;
+    [javac]                              ^
+    [javac] D:\workspacenew\appium\src\appiumtest\AppDemo.java:10: 错误: 程序包org.apache.xerces.impl.xs.identity不存在
+    [javac] import org.apache.xerces.impl.xs.identity.Selector;
+    [javac]                                          ^
+    [javac] D:\workspacenew\appium\src\appiumtest\AppDemo.java:11: 错误: 程序包org.junit不存在
+    [javac] import org.junit.Assert;
+    [javac]                 ^
+    [javac] D:\workspacenew\appium\src\appiumtest\AppDemo.java:12: 错误: 程序包org.openqa.selenium不存在
+    [javac] import org.openqa.selenium.By;
+    [javac]                           ^
+    [javac] D:\workspacenew\appium\src\appiumtest\AppDemo.java:13: 错误: 程序包org.openqa.selenium不存在
+    [javac] import org.openqa.selenium.Capabilities;
+    [javac]                           ^
+    [javac] D:\workspacenew\appium\src\appiumtest\AppDemo.java:14: 错误: 程序包org.openqa.selenium不存在
+    [javac] import org.openqa.selenium.WebDriver;
+    [javac]                           ^
+    [javac] D:\workspacenew\appium\src\appiumtest\AppDemo.java:15: 错误: 程序包org.openqa.selenium不存在
+    [javac] import org.openqa.selenium.WebElement;
+    [javac]                           ^
+    [javac] D:\workspacenew\appium\src\appiumtest\AppDemo.java:16: 错误: 程序包org.openqa.selenium.interactions不存在
+    [javac] import org.openqa.selenium.interactions.HasTouchScreen;
+    [javac]                                        ^
+    [javac] D:\workspacenew\appium\src\appiumtest\AppDemo.java:17: 错误: 程序包org.openqa.selenium.interactions不存在
+    [javac] import org.openqa.selenium.interactions.TouchScreen;
+    [javac]                                        ^
+    [javac] D:\workspacenew\appium\src\appiumtest\AppDemo.java:18: 错误: 程序包org.openqa.selenium.remote不存在
+    [javac] import org.openqa.selenium.remote.CapabilityType;
+    [javac]                                  ^
+    [javac] D:\workspacenew\appium\src\appiumtest\AppDemo.java:19: 错误: 程序包org.openqa.selenium.remote不存在
+    [javac] import org.openqa.selenium.remote.DesiredCapabilities;
+    [javac]                                  ^
+    [javac] D:\workspacenew\appium\src\appiumtest\AppDemo.java:20: 错误: 程序包org.openqa.selenium.remote不存在
+    [javac] import org.openqa.selenium.remote.RemoteTouchScreen;
+    [javac]                                  ^
+    [javac] D:\workspacenew\appium\src\appiumtest\AppDemo.java:21: 错误: 程序包org.openqa.selenium.remote不存在
+    [javac] import org.openqa.selenium.remote.RemoteWebDriver;
+    [javac]                                  ^
+    [javac] D:\workspacenew\appium\src\appiumtest\AppDemo.java:22: 错误: 程序包org.testng.annotations不存在
+    [javac] import org.testng.annotations.AfterMethod;
+    [javac]                              ^
+    [javac] D:\workspacenew\appium\src\appiumtest\AppDemo.java:23: 错误: 程序包org.testng.annotations不存在
+    [javac] import org.testng.annotations.BeforeMethod;
+    [javac]                              ^
+    [javac] D:\workspacenew\appium\src\appiumtest\AppDemo.java:24: 错误: 程序包org.testng.annotations不存在
+    [javac] import org.testng.annotations.Test;
+    [javac]                              ^
+    [javac] D:\workspacenew\appium\src\appiumtest\AppDemo.java:26: 错误: 程序包io.appium.java_client.android不存在
+    [javac] import io.appium.java_client.android.AndroidDriver;
+    [javac]                                     ^
+    [javac] D:\workspacenew\appium\src\appiumtest\AppDemo.java:33: 错误: 找不到符号
+    [javac] @Test
+    [javac]  ^
+    [javac]   符号: 类 Test
+    [javac] D:\workspacenew\appium\src\appiumtest\AppDemo.java:35: 错误: 找不到符号
+    [javac] 	private AndroidDriver driver;
+    [javac] 	        ^
+    [javac]   符号:   类 AndroidDriver
+    [javac]   位置: 类 AppDemo
+    [javac] D:\workspacenew\appium\src\appiumtest\AppDemo.java:37: 错误: 找不到符号
+    [javac] 	@BeforeMethod(alwaysRun = true)
+    [javac] 	 ^
+    [javac]   符号:   类 BeforeMethod
+    [javac]   位置: 类 AppDemo
+    [javac] D:\workspacenew\appium\src\appiumtest\AppDemo.java:55: 错误: 找不到符号
+    [javac] 	@AfterMethod(alwaysRun = true)
+    [javac] 	 ^
+    [javac]   符号:   类 AfterMethod
+    [javac]   位置: 类 AppDemo
+    [javac] D:\workspacenew\appium\src\appiumtest\AppDemo.java:60: 错误: 找不到符号
+    [javac] 	@Test
+    [javac] 	 ^
+    [javac]   符号:   类 Test
+    [javac]   位置: 类 AppDemo
+    [javac] D:\workspacenew\appium\src\appiumtest\AppDemo.java:84: 错误: 找不到符号
+    [javac] 	@Test
+    [javac] 	 ^
+    [javac]   符号:   类 Test
+    [javac]   位置: 类 AppDemo
+    [javac] D:\workspacenew\appium\src\appiumtest\AppDemo.java:43: 错误: 找不到符号
+    [javac] 		DesiredCapabilities capabilities = new DesiredCapabilities();
+    [javac] 		^
+    [javac]   符号:   类 DesiredCapabilities
+    [javac]   位置: 类 AppDemo
+    [javac] D:\workspacenew\appium\src\appiumtest\AppDemo.java:43: 错误: 找不到符号
+    [javac] 		DesiredCapabilities capabilities = new DesiredCapabilities();
+    [javac] 		                                       ^
+    [javac]   符号:   类 DesiredCapabilities
+    [javac]   位置: 类 AppDemo
+    [javac] D:\workspacenew\appium\src\appiumtest\AppDemo.java:44: 错误: 找不到符号
+    [javac] 		capabilities.setCapability(CapabilityType.BROWSER_NAME, "");
+    [javac] 		                           ^
+    [javac]   符号:   变量 CapabilityType
+    [javac]   位置: 类 AppDemo
+    [javac] D:\workspacenew\appium\src\appiumtest\AppDemo.java:52: 错误: 找不到符号
+    [javac] 		driver = new AndroidDriver(new URL("http://127.0.0.1:4723/wd/hub"), capabilities);
+    [javac] 		             ^
+    [javac]   符号:   类 AndroidDriver
+    [javac]   位置: 类 AppDemo
+    [javac] D:\workspacenew\appium\src\appiumtest\AppDemo.java:62: 错误: 找不到符号
+    [javac] 		WebElement el = driver.findElement(By.name("???"));
+    [javac] 		^
+    [javac]   符号:   类 WebElement
+    [javac]   位置: 类 AppDemo
+    [javac] D:\workspacenew\appium\src\appiumtest\AppDemo.java:62: 错误: 找不到符号
+    [javac] 		WebElement el = driver.findElement(By.name("???"));
+    [javac] 		                                   ^
+    [javac]   符号:   变量 By
+    [javac]   位置: 类 AppDemo
+    [javac] D:\workspacenew\appium\src\appiumtest\AppDemo.java:64: 错误: 找不到符号
+    [javac] 			Assert.assertTrue(true);
+    [javac] 			^
+    [javac]   符号:   变量 Assert
+    [javac]   位置: 类 AppDemo
+    [javac] D:\workspacenew\appium\src\appiumtest\AppDemo.java:68: 错误: 找不到符号
+    [javac] 			Assert.assertTrue(false);
+    [javac] 			^
+    [javac]   符号:   变量 Assert
+    [javac]   位置: 类 AppDemo
+    [javac] D:\workspacenew\appium\src\appiumtest\AppDemo.java:86: 错误: 找不到符号
+    [javac] 		WebElement el = driver.findElement(By.name("????"));
+    [javac] 		^
+    [javac]   符号:   类 WebElement
+    [javac]   位置: 类 AppDemo
+    [javac] D:\workspacenew\appium\src\appiumtest\AppDemo.java:86: 错误: 找不到符号
+    [javac] 		WebElement el = driver.findElement(By.name("????"));
+    [javac] 		                                   ^
+    [javac]   符号:   变量 By
+    [javac]   位置: 类 AppDemo
+    [javac] D:\workspacenew\appium\src\appiumtest\AppDemo.java:89: 错误: 找不到符号
+    [javac] 		driver.findElement(By.name("???")).click();
+    [javac] 		                   ^
+    [javac]   符号:   变量 By
+    [javac]   位置: 类 AppDemo
+    [javac] D:\workspacenew\appium\src\appiumtest\AppDemo.java:90: 错误: 找不到符号
+    [javac] 		driver.findElement(By.name("???????")).click();
+    [javac] 		                   ^
+    [javac]   符号:   变量 By
+    [javac]   位置: 类 AppDemo
+    [javac] 39 个错误
+    [javac] 100 个警告
+
+BUILD FAILED
+D:\adt-bundle-windows-x86_64-20140702\sdk\tools\ant\uibuild.xml:183: Compile failed; see the compiler error output for details.
+
+Total time: 1 second
+error: device not found
+error: device not found
+Updated file D:\workspacenew\appium\build.xml
+Buildfile: D:\workspacenew\appium\build.xml
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 25.2.2
+ [checkenv] Installed at D:\adt-bundle-windows-x86_64-20140702\sdk
+
+-build-setup:
+[getbuildtools] Using latest Build Tools: 23.0.1
+     [echo] Resolving Build Target for demo3...
+[getuitarget] Project Target:   Android 4.4.2
+[getuitarget] API level:        19
+     [echo] ----------
+     [echo] Creating output directories if needed...
+
+-pre-compile:
+
+compile:
+    [javac] Compiling 2 source files to D:\workspacenew\appium\bin\classes
+    [javac] 警告: [options] 源值1.5已过时, 将在未来所有发行版中删除
+    [javac] 警告: [options] 目标值1.5已过时, 将在未来所有发行版中删除
+    [javac] 警告: [options] 要隐藏有关已过时选项的警告, 请使用 -Xlint:-options。
+    [javac] D:\workspacenew\appium\src\appiumtest\AppDemo.java:62: 警告: 编码UTF-8的不可映射字符
+    [javac] 		WebElement el = driver.findElement(By.name("???"));
+    [javac] 		                                            ^
+    [javac] D:\workspacenew\appium\src\appiumtest\AppDemo.java:62: 警告: 编码UTF-8的不可映射字符
+    [javac] 		WebElement el = driver.findElement(By.name("???"));
+    [javac] 		                                              ^
+    [javac] D:\workspacenew\appium\src\appiumtest\AppDemo.java:73: 警告: 编码UTF-8的不可映射字符
+    [javac] 		System.out.println("?????press"+act);
+    [javac] 		                     ^
+    [javac] D:\workspacenew\appium\src\appiumtest\AppDemo.java:73: 警告: 编码UTF-8的不可映射字符
+    [javac] 		System.out.println("?????press"+act);
+    [javac] 		                      ^
+    [javac] D:\workspacenew\appium\src\appiumtest\AppDemo.java:73: 警告: 编码UTF-8的不可映射字符
+    [javac] 		System.out.println("?????press"+act);
+    [javac] 		                       ^
+    [javac] D:\workspacenew\appium\src\appiumtest\AppDemo.java:73: 警告: 编码UTF-8的不可映射字符
+    [javac] 		System.out.println("?????press"+act);
+    [javac] 		                        ^
+    [javac] D:\workspacenew\appium\src\appiumtest\AppDemo.java:86: 警告: 编码UTF-8的不可映射字符
+    [javac] 		WebElement el = driver.findElement(By.name("????"));
+    [javac] 		                                            ^
+    [javac] D:\workspacenew\appium\src\appiumtest\AppDemo.java:86: 警告: 编码UTF-8的不可映射字符
+    [javac] 		WebElement el = driver.findElement(By.name("????"));
+    [javac] 		                                             ^
+    [javac] D:\workspacenew\appium\src\appiumtest\AppDemo.java:86: 警告: 编码UTF-8的不可映射字符
+    [javac] 		WebElement el = driver.findElement(By.name("????"));
+    [javac] 		                                              ^
+    [javac] D:\workspacenew\appium\src\appiumtest\AppDemo.java:86: 警告: 编码UTF-8的不可映射字符
+    [javac] 		WebElement el = driver.findElement(By.name("????"));
+    [javac] 		                                               ^
+    [javac] D:\workspacenew\appium\src\appiumtest\AppDemo.java:89: 警告: 编码UTF-8的不可映射字符
+    [javac] 		driver.findElement(By.name("???")).click();
+    [javac] 		                             ^
+    [javac] D:\workspacenew\appium\src\appiumtest\AppDemo.java:89: 警告: 编码UTF-8的不可映射字符
+    [javac] 		driver.findElement(By.name("???")).click();
+    [javac] 		                              ^
+    [javac] D:\workspacenew\appium\src\appiumtest\AppDemo.java:90: 警告: 编码UTF-8的不可映射字符
+    [javac] 		driver.findElement(By.name("???????")).click();
+    [javac] 		                            ^
+    [javac] D:\workspacenew\appium\src\appiumtest\AppDemo.java:90: 警告: 编码UTF-8的不可映射字符
+    [javac] 		driver.findElement(By.name("???????")).click();
+    [javac] 		                             ^
+    [javac] D:\workspacenew\appium\src\appiumtest\AppDemo.java:90: 警告: 编码UTF-8的不可映射字符
+    [javac] 		driver.findElement(By.name("???????")).click();
+    [javac] 		                               ^
+    [javac] D:\workspacenew\appium\src\appiumtest\AppDemo.java:90: 警告: 编码UTF-8的不可映射字符
+    [javac] 		driver.findElement(By.name("???????")).click();
+    [javac] 		                                ^
+    [javac] D:\workspacenew\appium\src\appiumtest\AppDemo.java:90: 警告: 编码UTF-8的不可映射字符
+    [javac] 		driver.findElement(By.name("???????")).click();
+    [javac] 		                                 ^
+    [javac] D:\workspacenew\appium\src\appiumtest\AppDemo.java:90: 警告: 编码UTF-8的不可映射字符
+    [javac] 		driver.findElement(By.name("???????")).click();
+    [javac] 		                                  ^
+    [javac] D:\workspacenew\appium\src\appiumtest\AppDemo.java:92: 警告: 编码UTF-8的不可映射字符
+    [javac] 		System.out.println("?????presse2");
+    [javac] 		                     ^
+    [javac] D:\workspacenew\appium\src\appiumtest\AppDemo.java:92: 警告: 编码UTF-8的不可映射字符
+    [javac] 		System.out.println("?????presse2");
+    [javac] 		                      ^
+    [javac] D:\workspacenew\appium\src\appiumtest\AppDemo.java:92: 警告: 编码UTF-8的不可映射字符
+    [javac] 		System.out.println("?????presse2");
+    [javac] 		                       ^
+    [javac] D:\workspacenew\appium\src\appiumtest\AppDemo.java:92: 警告: 编码UTF-8的不可映射字符
+    [javac] 		System.out.println("?????presse2");
+    [javac] 		                        ^
+    [javac] D:\workspacenew\appium\src\appiumtest\method.java:4: 警告: 编码UTF-8的不可映射字符
+    [javac] //    //1.????????????????
+    [javac]           ^
+    [javac] D:\workspacenew\appium\src\appiumtest\method.java:4: 警告: 编码UTF-8的不可映射字符
+    [javac] //    //1.????????????????
+    [javac]            ^
+    [javac] D:\workspacenew\appium\src\appiumtest\method.java:4: 警告: 编码UTF-8的不可映射字符
+    [javac] //    //1.????????????????
+    [javac]             ^
+    [javac] D:\workspacenew\appium\src\appiumtest\method.java:4: 警告: 编码UTF-8的不可映射字符
+    [javac] //    //1.????????????????
+    [javac]              ^
+    [javac] D:\workspacenew\appium\src\appiumtest\method.java:4: 警告: 编码UTF-8的不可映射字符
+    [javac] //    //1.????????????????
+    [javac]               ^
+    [javac] D:\workspacenew\appium\src\appiumtest\method.java:4: 警告: 编码UTF-8的不可映射字符
+    [javac] //    //1.????????????????
+    [javac]                ^
+    [javac] D:\workspacenew\appium\src\appiumtest\method.java:4: 警告: 编码UTF-8的不可映射字符
+    [javac] //    //1.????????????????
+    [javac]                 ^
+    [javac] D:\workspacenew\appium\src\appiumtest\method.java:4: 警告: 编码UTF-8的不可映射字符
+    [javac] //    //1.????????????????
+    [javac]                  ^
+    [javac] D:\workspacenew\appium\src\appiumtest\method.java:4: 警告: 编码UTF-8的不可映射字符
+    [javac] //    //1.????????????????
+    [javac]                   ^
+    [javac] D:\workspacenew\appium\src\appiumtest\method.java:4: 警告: 编码UTF-8的不可映射字符
+    [javac] //    //1.????????????????
+    [javac]                    ^
+    [javac] D:\workspacenew\appium\src\appiumtest\method.java:4: 警告: 编码UTF-8的不可映射字符
+    [javac] //    //1.????????????????
+    [javac]                     ^
+    [javac] D:\workspacenew\appium\src\appiumtest\method.java:4: 警告: 编码UTF-8的不可映射字符
+    [javac] //    //1.????????????????
+    [javac]                      ^
+    [javac] D:\workspacenew\appium\src\appiumtest\method.java:4: 警告: 编码UTF-8的不可映射字符
+    [javac] //    //1.????????????????
+    [javac]                       ^
+    [javac] D:\workspacenew\appium\src\appiumtest\method.java:4: 警告: 编码UTF-8的不可映射字符
+    [javac] //    //1.????????????????
+    [javac]                        ^
+    [javac] D:\workspacenew\appium\src\appiumtest\method.java:4: 警告: 编码UTF-8的不可映射字符
+    [javac] //    //1.????????????????
+    [javac]                         ^
+    [javac] D:\workspacenew\appium\src\appiumtest\method.java:4: 警告: 编码UTF-8的不可映射字符
+    [javac] //    //1.????????????????
+    [javac]                          ^
+    [javac] D:\workspacenew\appium\src\appiumtest\method.java:8: 警告: 编码UTF-8的不可映射字符
+    [javac] //	//FileUtils.copyFile(screen, screenFile); //commons-io-2.0.1.jar?е?api
+    [javac]   	                                                                ^
+    [javac] D:\workspacenew\appium\src\appiumtest\method.java:8: 警告: 编码UTF-8的不可映射字符
+    [javac] //	//FileUtils.copyFile(screen, screenFile); //commons-io-2.0.1.jar?е?api
+    [javac]   	                                                                  ^
+    [javac] D:\workspacenew\appium\src\appiumtest\method.java:12: 警告: 编码UTF-8的不可映射字符
+    [javac] //	//???????????activity,?????????????????????activity
+    [javac]   	  ^
+    [javac] D:\workspacenew\appium\src\appiumtest\method.java:12: 警告: 编码UTF-8的不可映射字符
+    [javac] //	//???????????activity,?????????????????????activity
+    [javac]   	   ^
+    [javac] D:\workspacenew\appium\src\appiumtest\method.java:12: 警告: 编码UTF-8的不可映射字符
+    [javac] //	//???????????activity,?????????????????????activity
+    [javac]   	     ^
+    [javac] D:\workspacenew\appium\src\appiumtest\method.java:12: 警告: 编码UTF-8的不可映射字符
+    [javac] //	//???????????activity,?????????????????????activity
+    [javac]   	      ^
+    [javac] D:\workspacenew\appium\src\appiumtest\method.java:12: 警告: 编码UTF-8的不可映射字符
+    [javac] //	//???????????activity,?????????????????????activity
+    [javac]   	        ^
+    [javac] D:\workspacenew\appium\src\appiumtest\method.java:12: 警告: 编码UTF-8的不可映射字符
+    [javac] //	//???????????activity,?????????????????????activity
+    [javac]   	         ^
+    [javac] D:\workspacenew\appium\src\appiumtest\method.java:12: 警告: 编码UTF-8的不可映射字符
+    [javac] //	//???????????activity,?????????????????????activity
+    [javac]   	          ^
+    [javac] D:\workspacenew\appium\src\appiumtest\method.java:12: 警告: 编码UTF-8的不可映射字符
+    [javac] //	//???????????activity,?????????????????????activity
+    [javac]   	           ^
+    [javac] D:\workspacenew\appium\src\appiumtest\method.java:12: 警告: 编码UTF-8的不可映射字符
+    [javac] //	//???????????activity,?????????????????????activity
+    [javac]   	            ^
+    [javac] D:\workspacenew\appium\src\appiumtest\method.java:12: 警告: 编码UTF-8的不可映射字符
+    [javac] //	//???????????activity,?????????????????????activity
+    [javac]   	                      ^
+    [javac] D:\workspacenew\appium\src\appiumtest\method.java:12: 警告: 编码UTF-8的不可映射字符
+    [javac] //	//???????????activity,?????????????????????activity
+    [javac]   	                       ^
+    [javac] D:\workspacenew\appium\src\appiumtest\method.java:12: 警告: 编码UTF-8的不可映射字符
+    [javac] //	//???????????activity,?????????????????????activity
+    [javac]   	                        ^
+    [javac] D:\workspacenew\appium\src\appiumtest\method.java:12: 警告: 编码UTF-8的不可映射字符
+    [javac] //	//???????????activity,?????????????????????activity
+    [javac]   	                         ^
+    [javac] D:\workspacenew\appium\src\appiumtest\method.java:12: 警告: 编码UTF-8的不可映射字符
+    [javac] //	//???????????activity,?????????????????????activity
+    [javac]   	                          ^
+    [javac] D:\workspacenew\appium\src\appiumtest\method.java:12: 警告: 编码UTF-8的不可映射字符
+    [javac] //	//???????????activity,?????????????????????activity
+    [javac]   	                            ^
+    [javac] D:\workspacenew\appium\src\appiumtest\method.java:12: 警告: 编码UTF-8的不可映射字符
+    [javac] //	//???????????activity,?????????????????????activity
+    [javac]   	                             ^
+    [javac] D:\workspacenew\appium\src\appiumtest\method.java:12: 警告: 编码UTF-8的不可映射字符
+    [javac] //	//???????????activity,?????????????????????activity
+    [javac]   	                              ^
+    [javac] D:\workspacenew\appium\src\appiumtest\method.java:12: 警告: 编码UTF-8的不可映射字符
+    [javac] //	//???????????activity,?????????????????????activity
+    [javac]   	                               ^
+    [javac] D:\workspacenew\appium\src\appiumtest\method.java:12: 警告: 编码UTF-8的不可映射字符
+    [javac] //	//???????????activity,?????????????????????activity
+    [javac]   	                                 ^
+    [javac] D:\workspacenew\appium\src\appiumtest\method.java:12: 警告: 编码UTF-8的不可映射字符
+    [javac] //	//???????????activity,?????????????????????activity
+    [javac]   	                                  ^
+    [javac] D:\workspacenew\appium\src\appiumtest\method.java:12: 警告: 编码UTF-8的不可映射字符
+    [javac] //	//???????????activity,?????????????????????activity
+    [javac]   	                                   ^
+    [javac] D:\workspacenew\appium\src\appiumtest\method.java:12: 警告: 编码UTF-8的不可映射字符
+    [javac] //	//???????????activity,?????????????????????activity
+    [javac]   	                                     ^
+    [javac] D:\workspacenew\appium\src\appiumtest\method.java:12: 警告: 编码UTF-8的不可映射字符
+    [javac] //	//???????????activity,?????????????????????activity
+    [javac]   	                                      ^
+    [javac] D:\workspacenew\appium\src\appiumtest\method.java:12: 警告: 编码UTF-8的不可映射字符
+    [javac] //	//???????????activity,?????????????????????activity
+    [javac]   	                                        ^
+    [javac] D:\workspacenew\appium\src\appiumtest\method.java:12: 警告: 编码UTF-8的不可映射字符
+    [javac] //	//???????????activity,?????????????????????activity
+    [javac]   	                                          ^
+    [javac] D:\workspacenew\appium\src\appiumtest\method.java:15: 警告: 编码UTF-8的不可映射字符
+    [javac] //	//??????????
+    [javac]   	  ^
+    [javac] D:\workspacenew\appium\src\appiumtest\method.java:15: 警告: 编码UTF-8的不可映射字符
+    [javac] //	//??????????
+    [javac]   	   ^
+    [javac] D:\workspacenew\appium\src\appiumtest\method.java:15: 警告: 编码UTF-8的不可映射字符
+    [javac] //	//??????????
+    [javac]   	      ^
+    [javac] D:\workspacenew\appium\src\appiumtest\method.java:15: 警告: 编码UTF-8的不可映射字符
+    [javac] //	//??????????
+    [javac]   	       ^
+    [javac] D:\workspacenew\appium\src\appiumtest\method.java:15: 警告: 编码UTF-8的不可映射字符
+    [javac] //	//??????????
+    [javac]   	        ^
+    [javac] D:\workspacenew\appium\src\appiumtest\method.java:15: 警告: 编码UTF-8的不可映射字符
+    [javac] //	//??????????
+    [javac]   	         ^
+    [javac] D:\workspacenew\appium\src\appiumtest\method.java:15: 警告: 编码UTF-8的不可映射字符
+    [javac] //	//??????????
+    [javac]   	          ^
+    [javac] D:\workspacenew\appium\src\appiumtest\method.java:15: 警告: 编码UTF-8的不可映射字符
+    [javac] //	//??????????
+    [javac]   	           ^
+    [javac] D:\workspacenew\appium\src\appiumtest\method.java:18: 警告: 编码UTF-8的不可映射字符
+    [javac] //	//??????????????APP
+    [javac]   	  ^
+    [javac] D:\workspacenew\appium\src\appiumtest\method.java:18: 警告: 编码UTF-8的不可映射字符
+    [javac] //	//??????????????APP
+    [javac]   	   ^
+    [javac] D:\workspacenew\appium\src\appiumtest\method.java:18: 警告: 编码UTF-8的不可映射字符
+    [javac] //	//??????????????APP
+    [javac]   	    ^
+    [javac] D:\workspacenew\appium\src\appiumtest\method.java:18: 警告: 编码UTF-8的不可映射字符
+    [javac] //	//??????????????APP
+    [javac]   	     ^
+    [javac] D:\workspacenew\appium\src\appiumtest\method.java:18: 警告: 编码UTF-8的不可映射字符
+    [javac] //	//??????????????APP
+    [javac]   	      ^
+    [javac] D:\workspacenew\appium\src\appiumtest\method.java:18: 警告: 编码UTF-8的不可映射字符
+    [javac] //	//??????????????APP
+    [javac]   	       ^
+    [javac] D:\workspacenew\appium\src\appiumtest\method.java:18: 警告: 编码UTF-8的不可映射字符
+    [javac] //	//??????????????APP
+    [javac]   	        ^
+    [javac] D:\workspacenew\appium\src\appiumtest\method.java:18: 警告: 编码UTF-8的不可映射字符
+    [javac] //	//??????????????APP
+    [javac]   	         ^
+    [javac] D:\workspacenew\appium\src\appiumtest\method.java:18: 警告: 编码UTF-8的不可映射字符
+    [javac] //	//??????????????APP
+    [javac]   	           ^
+    [javac] D:\workspacenew\appium\src\appiumtest\method.java:18: 警告: 编码UTF-8的不可映射字符
+    [javac] //	//??????????????APP
+    [javac]   	             ^
+    [javac] D:\workspacenew\appium\src\appiumtest\method.java:18: 警告: 编码UTF-8的不可映射字符
+    [javac] //	//??????????????APP
+    [javac]   	              ^
+    [javac] D:\workspacenew\appium\src\appiumtest\method.java:18: 警告: 编码UTF-8的不可映射字符
+    [javac] //	//??????????????APP
+    [javac]   	               ^
+    [javac] D:\workspacenew\appium\src\appiumtest\method.java:21: 警告: 编码UTF-8的不可映射字符
+    [javac] //	//????????б?
+    [javac]   	  ^
+    [javac] D:\workspacenew\appium\src\appiumtest\method.java:21: 警告: 编码UTF-8的不可映射字符
+    [javac] //	//????????б?
+    [javac]   	    ^
+    [javac] D:\workspacenew\appium\src\appiumtest\method.java:21: 警告: 编码UTF-8的不可映射字符
+    [javac] //	//????????б?
+    [javac]   	     ^
+    [javac] D:\workspacenew\appium\src\appiumtest\method.java:21: 警告: 编码UTF-8的不可映射字符
+    [javac] //	//????????б?
+    [javac]   	      ^
+    [javac] D:\workspacenew\appium\src\appiumtest\method.java:21: 警告: 编码UTF-8的不可映射字符
+    [javac] //	//????????б?
+    [javac]   	       ^
+    [javac] D:\workspacenew\appium\src\appiumtest\method.java:21: 警告: 编码UTF-8的不可映射字符
+    [javac] //	//????????б?
+    [javac]   	        ^
+    [javac] D:\workspacenew\appium\src\appiumtest\method.java:21: 警告: 编码UTF-8的不可映射字符
+    [javac] //	//????????б?
+    [javac]   	         ^
+    [javac] D:\workspacenew\appium\src\appiumtest\method.java:21: 警告: 编码UTF-8的不可映射字符
+    [javac] //	//????????б?
+    [javac]   	           ^
+    [javac] D:\workspacenew\appium\src\appiumtest\method.java:23: 警告: 编码UTF-8的不可映射字符
+    [javac] //	//????
+    [javac]   	  ^
+    [javac] D:\workspacenew\appium\src\appiumtest\method.java:23: 警告: 编码UTF-8的不可映射字符
+    [javac] //	//????
+    [javac]   	   ^
+    [javac] D:\workspacenew\appium\src\appiumtest\method.java:23: 警告: 编码UTF-8的不可映射字符
+    [javac] //	//????
+    [javac]   	    ^
+    [javac] D:\workspacenew\appium\src\appiumtest\method.java:23: 警告: 编码UTF-8的不可映射字符
+    [javac] //	//????
+    [javac]   	     ^
+    [javac] D:\workspacenew\appium\src\appiumtest\AppDemo.java:3: 错误: 程序包org.testng.annotations不存在
+    [javac] import org.testng.annotations.AfterMethod;
+    [javac]                              ^
+    [javac] D:\workspacenew\appium\src\appiumtest\AppDemo.java:4: 错误: 程序包org.testng.annotations不存在
+    [javac] import org.testng.annotations.Test;
+    [javac]                              ^
+    [javac] D:\workspacenew\appium\src\appiumtest\AppDemo.java:6: 错误: 程序包com.gargoylesoftware.htmlunit.javascript.host.dom不存在
+    [javac] import com.gargoylesoftware.htmlunit.javascript.host.dom.Document;
+    [javac]                                                         ^
+    [javac] D:\workspacenew\appium\src\appiumtest\AppDemo.java:8: 错误: 程序包org.testng.annotations不存在
+    [javac] import org.testng.annotations.BeforeMethod;
+    [javac]                              ^
+    [javac] D:\workspacenew\appium\src\appiumtest\AppDemo.java:9: 错误: 程序包org.testng.annotations不存在
+    [javac] import org.testng.annotations.DataProvider;
+    [javac]                              ^
+    [javac] D:\workspacenew\appium\src\appiumtest\AppDemo.java:10: 错误: 程序包org.apache.xerces.impl.xs.identity不存在
+    [javac] import org.apache.xerces.impl.xs.identity.Selector;
+    [javac]                                          ^
+    [javac] D:\workspacenew\appium\src\appiumtest\AppDemo.java:11: 错误: 程序包org.junit不存在
+    [javac] import org.junit.Assert;
+    [javac]                 ^
+    [javac] D:\workspacenew\appium\src\appiumtest\AppDemo.java:12: 错误: 程序包org.openqa.selenium不存在
+    [javac] import org.openqa.selenium.By;
+    [javac]                           ^
+    [javac] D:\workspacenew\appium\src\appiumtest\AppDemo.java:13: 错误: 程序包org.openqa.selenium不存在
+    [javac] import org.openqa.selenium.Capabilities;
+    [javac]                           ^
+    [javac] D:\workspacenew\appium\src\appiumtest\AppDemo.java:14: 错误: 程序包org.openqa.selenium不存在
+    [javac] import org.openqa.selenium.WebDriver;
+    [javac]                           ^
+    [javac] D:\workspacenew\appium\src\appiumtest\AppDemo.java:15: 错误: 程序包org.openqa.selenium不存在
+    [javac] import org.openqa.selenium.WebElement;
+    [javac]                           ^
+    [javac] D:\workspacenew\appium\src\appiumtest\AppDemo.java:16: 错误: 程序包org.openqa.selenium.interactions不存在
+    [javac] import org.openqa.selenium.interactions.HasTouchScreen;
+    [javac]                                        ^
+    [javac] D:\workspacenew\appium\src\appiumtest\AppDemo.java:17: 错误: 程序包org.openqa.selenium.interactions不存在
+    [javac] import org.openqa.selenium.interactions.TouchScreen;
+    [javac]                                        ^
+    [javac] D:\workspacenew\appium\src\appiumtest\AppDemo.java:18: 错误: 程序包org.openqa.selenium.remote不存在
+    [javac] import org.openqa.selenium.remote.CapabilityType;
+    [javac]                                  ^
+    [javac] D:\workspacenew\appium\src\appiumtest\AppDemo.java:19: 错误: 程序包org.openqa.selenium.remote不存在
+    [javac] import org.openqa.selenium.remote.DesiredCapabilities;
+    [javac]                                  ^
+    [javac] D:\workspacenew\appium\src\appiumtest\AppDemo.java:20: 错误: 程序包org.openqa.selenium.remote不存在
+    [javac] import org.openqa.selenium.remote.RemoteTouchScreen;
+    [javac]                                  ^
+    [javac] D:\workspacenew\appium\src\appiumtest\AppDemo.java:21: 错误: 程序包org.openqa.selenium.remote不存在
+    [javac] import org.openqa.selenium.remote.RemoteWebDriver;
+    [javac]                                  ^
+    [javac] D:\workspacenew\appium\src\appiumtest\AppDemo.java:22: 错误: 程序包org.testng.annotations不存在
+    [javac] import org.testng.annotations.AfterMethod;
+    [javac]                              ^
+    [javac] D:\workspacenew\appium\src\appiumtest\AppDemo.java:23: 错误: 程序包org.testng.annotations不存在
+    [javac] import org.testng.annotations.BeforeMethod;
+    [javac]                              ^
+    [javac] D:\workspacenew\appium\src\appiumtest\AppDemo.java:24: 错误: 程序包org.testng.annotations不存在
+    [javac] import org.testng.annotations.Test;
+    [javac]                              ^
+    [javac] D:\workspacenew\appium\src\appiumtest\AppDemo.java:26: 错误: 程序包io.appium.java_client.android不存在
+    [javac] import io.appium.java_client.android.AndroidDriver;
+    [javac]                                     ^
+    [javac] D:\workspacenew\appium\src\appiumtest\AppDemo.java:33: 错误: 找不到符号
+    [javac] @Test
+    [javac]  ^
+    [javac]   符号: 类 Test
+    [javac] D:\workspacenew\appium\src\appiumtest\AppDemo.java:35: 错误: 找不到符号
+    [javac] 	private AndroidDriver driver;
+    [javac] 	        ^
+    [javac]   符号:   类 AndroidDriver
+    [javac]   位置: 类 AppDemo
+    [javac] D:\workspacenew\appium\src\appiumtest\AppDemo.java:37: 错误: 找不到符号
+    [javac] 	@BeforeMethod(alwaysRun = true)
+    [javac] 	 ^
+    [javac]   符号:   类 BeforeMethod
+    [javac]   位置: 类 AppDemo
+    [javac] D:\workspacenew\appium\src\appiumtest\AppDemo.java:55: 错误: 找不到符号
+    [javac] 	@AfterMethod(alwaysRun = true)
+    [javac] 	 ^
+    [javac]   符号:   类 AfterMethod
+    [javac]   位置: 类 AppDemo
+    [javac] D:\workspacenew\appium\src\appiumtest\AppDemo.java:60: 错误: 找不到符号
+    [javac] 	@Test
+    [javac] 	 ^
+    [javac]   符号:   类 Test
+    [javac]   位置: 类 AppDemo
+    [javac] D:\workspacenew\appium\src\appiumtest\AppDemo.java:84: 错误: 找不到符号
+    [javac] 	@Test
+    [javac] 	 ^
+    [javac]   符号:   类 Test
+    [javac]   位置: 类 AppDemo
+    [javac] D:\workspacenew\appium\src\appiumtest\AppDemo.java:43: 错误: 找不到符号
+    [javac] 		DesiredCapabilities capabilities = new DesiredCapabilities();
+    [javac] 		^
+    [javac]   符号:   类 DesiredCapabilities
+    [javac]   位置: 类 AppDemo
+    [javac] D:\workspacenew\appium\src\appiumtest\AppDemo.java:43: 错误: 找不到符号
+    [javac] 		DesiredCapabilities capabilities = new DesiredCapabilities();
+    [javac] 		                                       ^
+    [javac]   符号:   类 DesiredCapabilities
+    [javac]   位置: 类 AppDemo
+    [javac] D:\workspacenew\appium\src\appiumtest\AppDemo.java:44: 错误: 找不到符号
+    [javac] 		capabilities.setCapability(CapabilityType.BROWSER_NAME, "");
+    [javac] 		                           ^
+    [javac]   符号:   变量 CapabilityType
+    [javac]   位置: 类 AppDemo
+    [javac] D:\workspacenew\appium\src\appiumtest\AppDemo.java:52: 错误: 找不到符号
+    [javac] 		driver = new AndroidDriver(new URL("http://127.0.0.1:4723/wd/hub"), capabilities);
+    [javac] 		             ^
+    [javac]   符号:   类 AndroidDriver
+    [javac]   位置: 类 AppDemo
+    [javac] D:\workspacenew\appium\src\appiumtest\AppDemo.java:62: 错误: 找不到符号
+    [javac] 		WebElement el = driver.findElement(By.name("???"));
+    [javac] 		^
+    [javac]   符号:   类 WebElement
+    [javac]   位置: 类 AppDemo
+    [javac] D:\workspacenew\appium\src\appiumtest\AppDemo.java:62: 错误: 找不到符号
+    [javac] 		WebElement el = driver.findElement(By.name("???"));
+    [javac] 		                                   ^
+    [javac]   符号:   变量 By
+    [javac]   位置: 类 AppDemo
+    [javac] D:\workspacenew\appium\src\appiumtest\AppDemo.java:64: 错误: 找不到符号
+    [javac] 			Assert.assertTrue(true);
+    [javac] 			^
+    [javac]   符号:   变量 Assert
+    [javac]   位置: 类 AppDemo
+    [javac] D:\workspacenew\appium\src\appiumtest\AppDemo.java:68: 错误: 找不到符号
+    [javac] 			Assert.assertTrue(false);
+    [javac] 			^
+    [javac]   符号:   变量 Assert
+    [javac]   位置: 类 AppDemo
+    [javac] D:\workspacenew\appium\src\appiumtest\AppDemo.java:86: 错误: 找不到符号
+    [javac] 		WebElement el = driver.findElement(By.name("????"));
+    [javac] 		^
+    [javac]   符号:   类 WebElement
+    [javac]   位置: 类 AppDemo
+    [javac] D:\workspacenew\appium\src\appiumtest\AppDemo.java:86: 错误: 找不到符号
+    [javac] 		WebElement el = driver.findElement(By.name("????"));
+    [javac] 		                                   ^
+    [javac]   符号:   变量 By
+    [javac]   位置: 类 AppDemo
+    [javac] D:\workspacenew\appium\src\appiumtest\AppDemo.java:89: 错误: 找不到符号
+    [javac] 		driver.findElement(By.name("???")).click();
+    [javac] 		                   ^
+    [javac]   符号:   变量 By
+    [javac]   位置: 类 AppDemo
+    [javac] D:\workspacenew\appium\src\appiumtest\AppDemo.java:90: 错误: 找不到符号
+    [javac] 		driver.findElement(By.name("???????")).click();
+    [javac] 		                   ^
+    [javac]   符号:   变量 By
+    [javac]   位置: 类 AppDemo
+    [javac] 39 个错误
+    [javac] 100 个警告
+
+BUILD FAILED
+D:\adt-bundle-windows-x86_64-20140702\sdk\tools\ant\uibuild.xml:183: Compile failed; see the compiler error output for details.
+
+Total time: 1 second
+error: device not found
+error: device not found
